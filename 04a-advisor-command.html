@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sage — Advisor command center</title>
+  <link rel="icon" type="image/x-icon" href="https://www.envestnet.com/themes/custom/basic/favicon/favicon2025.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="mockup-stage">
+    <p class="mockup-caption"><strong>4A</strong> — Advisor command center. Sarah opens this Tuesday at 7:55am. The unified persona-based view bringing planning, portfolios, workflows, and client activity into one operating layer. What she does today, ranked by leverage. The first AI pillar — Unified Experiences — made literal.</p>
+    <div class="env-mock">
+      <div class="env-util">
+        <div class="left">
+          <span><strong>Henderson Wealth Advisors</strong></span>
+          <span>Sarah O'Brien · CFP, Partner</span>
+        </div>
+        <div class="right">
+          <span class="ai-pill">Sage AI · active</span>
+          <a>Help</a><a>Sign out</a>
+        </div>
+      </div>
+      <div class="env-header-bar">
+        <img src="https://www.envestnet.com/sites/default/files/envestnet_logo.584dcbdba8d4e3b81ca52c9cafe5f7d7.svg" alt="Envestnet" class="env-header-logo">
+      </div>
+      <div class="env-nav">
+        
+        <div class="env-nav-items">
+          <a class="active">Dashboard</a><a>Planning</a><a>Proposals</a><a>Trading</a><a>Reporting</a><a>Billing</a>
+        </div>
+        <div class="env-actions">
+          <input class="search" placeholder="Search…">
+        </div>
+      </div>
+
+      <div class="env-hero" style="padding:32px;">
+        <span class="sage-pillar" style="background:rgba(0,169,224,0.2);color:var(--env-cyan);">UNIFIED EXPERIENCES</span>
+        <span class="sage-tag on-dark">SAGE · YOUR TUESDAY · 7:55 AM</span>
+        <h1>Good morning, Sarah. Here's the day, ranked.</h1>
+        <p class="sub">350 households · 12 alerts ranked by leverage · 4 meetings scheduled · 3 drafts queued for your review. Sage prepped everything overnight.</p>
+      </div>
+
+      <div class="stat-bar">
+        <div class="stat-tile"><div class="num">350</div><div class="label">Households</div><div class="delta up">+8 this month</div></div>
+        <div class="stat-tile"><div class="num">$312M</div><div class="label">AUM</div><div class="delta up">+$4.2M MTD</div></div>
+        <div class="stat-tile cyan"><div class="num">12</div><div class="label">Action items today</div></div>
+        <div class="stat-tile"><div class="num">2 hr 14 min</div><div class="label">Estimated focused work</div></div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:2fr 1fr;gap:0;border-top:1px solid var(--border);">
+        <div style="border-right:1px solid var(--border);">
+          <div class="section-tight">
+            <h2>Top 5 households to look at today</h2>
+            <p class="lede" style="margin-bottom:0;font-size:12.5px;">Sage ranked by combined leverage — household AUM × action time-sensitivity × Sarah-relationship strength.</p>
+          </div>
+
+          <div class="household-list">
+            <div class="household-card flagged">
+              <div class="avatar">WK</div>
+              <div class="info">
+                <div class="name">Walker household</div>
+                <div class="meta">Inherited (Bob) · post-sale · $26.5M · today's 2pm discovery meeting</div>
+              </div>
+              <div class="aum"><div class="amt">$26.5M</div><div class="lbl">Total · new</div></div>
+            </div>
+            <div class="household-card flagged">
+              <div class="avatar">BL</div>
+              <div class="info">
+                <div class="name">Bell household</div>
+                <div class="meta">Inherited (Bob) · CD ladder rolling · $94K opportunity flagged this morning</div>
+              </div>
+              <div class="aum"><div class="amt">$4.2M</div><div class="lbl">CDs · rolling</div></div>
+            </div>
+            <div class="household-card">
+              <div class="avatar">TA</div>
+              <div class="info">
+                <div class="name">Tan household</div>
+                <div class="meta">Yours · plan probability slipped 2pts on rate move · suggest 15-min check-in</div>
+              </div>
+              <div class="aum"><div class="amt">$2.8M</div><div class="lbl">Pre-retirement</div></div>
+            </div>
+            <div class="household-card">
+              <div class="avatar">AN</div>
+              <div class="info">
+                <div class="name">Anderson household</div>
+                <div class="meta">Inherited (Bob) · regional-bank concentration · tax-loss window open</div>
+              </div>
+              <div class="aum"><div class="amt">$1.9M</div><div class="lbl">Concentrated</div></div>
+            </div>
+            <div class="household-card">
+              <div class="avatar">RY</div>
+              <div class="info">
+                <div class="name">Reyes household</div>
+                <div class="meta">Yours · Maria retired, annuity income-start re-timing model ready</div>
+              </div>
+              <div class="aum"><div class="amt">$1.4M</div><div class="lbl">Retiree</div></div>
+            </div>
+          </div>
+
+          <div style="padding:18px 22px;border-top:1px solid var(--border);font-size:12px;color:var(--text-muted);text-align:center;">
+            + 7 more lower-leverage households with auto-drafted actions awaiting batch approval
+            <a style="color:var(--env-cyan-deep);font-weight:700;margin-left:8px;">View all 12</a>
+          </div>
+
+          <div class="section">
+            <h2>Today's meetings</h2>
+            <div class="alert-row" style="grid-template-columns:60px 1fr 100px;">
+              <div class="ico" style="background:var(--env-navy);color:#fff;">10a</div>
+              <div class="body">
+                <div class="title">Tan household · planning check-in</div>
+                <div class="desc">15-min Zoom. Re-frame the 2-pt plan-probability slip. Sage prepped a 1-slide summary; David asked specifically.</div>
+              </div>
+              <div><a class="btn-ghost" style="padding:6px 10px;font-size:11px;">Brief</a></div>
+            </div>
+            <div class="alert-row" style="grid-template-columns:60px 1fr 100px;">
+              <div class="ico" style="background:var(--env-navy);color:#fff;">12p</div>
+              <div class="body">
+                <div class="title">Bob Henderson · weekly transition review</div>
+                <div class="desc">60 min in-person. Walk through this week's transferred households (incl. Walker) and Bob's relationship notes on each.</div>
+              </div>
+              <div><a class="btn-ghost" style="padding:6px 10px;font-size:11px;">Brief</a></div>
+            </div>
+            <div class="alert-row" style="grid-template-columns:60px 1fr 100px;background:var(--env-cyan-soft);">
+              <div class="ico">2p</div>
+              <div class="body">
+                <div class="title">Walker household · post-sale discovery meeting</div>
+                <div class="desc">90 min video. Greg + Carolyn. The big one. Sage briefed you fully — see Pillar 1A draft.</div>
+              </div>
+              <div><a class="btn-cyan btn" style="padding:6px 10px;font-size:11px;">Open brief</a></div>
+            </div>
+            <div class="alert-row" style="grid-template-columns:60px 1fr 100px;">
+              <div class="ico" style="background:var(--env-navy);color:#fff;">4p</div>
+              <div class="body">
+                <div class="title">Anthony Russo · firm partner sync</div>
+                <div class="desc">30 min. Tamarac model rebalance settings, Q3 firm-wide compliance attestation prep.</div>
+              </div>
+              <div><a class="btn-ghost" style="padding:6px 10px;font-size:11px;">Notes</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="section-tight">
+            <h2 style="font-size:16px;">3 drafts waiting your review</h2>
+            <div style="border:1px solid var(--border);padding:14px 16px;font-size:12px;margin-bottom:10px;">
+              <div style="font-weight:700;font-size:11px;color:var(--env-cyan-deep);letter-spacing:1px;margin-bottom:4px;">EMAIL · WALKER</div>
+              <div style="font-family:Inter,sans-serif;font-weight:600;font-size:13px;">Confirming our 2pm + agenda</div>
+              <div style="color:var(--text-muted);font-size:11px;margin-top:4px;line-height:1.5;">Sage drafted in your voice. 4 sentences. References Carolyn's CCC role.</div>
+              <a class="btn-cyan btn" style="margin-top:10px;font-size:11px;padding:6px 12px;">Review &amp; send</a>
+            </div>
+            <div style="border:1px solid var(--border);padding:14px 16px;font-size:12px;margin-bottom:10px;">
+              <div style="font-weight:700;font-size:11px;color:var(--env-cyan-deep);letter-spacing:1px;margin-bottom:4px;">PROPOSAL · BELL</div>
+              <div style="font-family:Inter,sans-serif;font-weight:600;font-size:13px;">CD ladder extension scenarios</div>
+              <div style="color:var(--text-muted);font-size:11px;margin-top:4px;line-height:1.5;">3-scenario PDF in Tamarac. Time-on-task saved: ~45 min.</div>
+              <a class="btn-cyan btn" style="margin-top:10px;font-size:11px;padding:6px 12px;">Review</a>
+            </div>
+            <div style="border:1px solid var(--border);padding:14px 16px;font-size:12px;">
+              <div style="font-weight:700;font-size:11px;color:var(--env-cyan-deep);letter-spacing:1px;margin-bottom:4px;">TRADE TICKETS · 12 HHs</div>
+              <div style="font-family:Inter,sans-serif;font-weight:600;font-size:13px;">Bond-sleeve rebalance batch</div>
+              <div style="color:var(--text-muted);font-size:11px;margin-top:4px;line-height:1.5;">PMC model drift above 3% threshold. Sage prepped tickets.</div>
+              <a class="btn-cyan btn" style="margin-top:10px;font-size:11px;padding:6px 12px;">Review batch</a>
+            </div>
+          </div>
+
+          <hr class="rule" style="margin:18px 0;">
+
+          <div class="section-tight" style="padding-top:0;">
+            <h2 style="font-size:16px;">Ask Sage anything</h2>
+            <div class="sage-card" style="margin-bottom:0;padding:14px 16px;">
+              <div class="sage-tag">SAGE</div>
+              <p style="font-size:12.5px;margin-top:6px;">I have full context across your 350 households. Ask anything — "show me clients with concentrated bank exposure," "draft a Q2 review email to my top 10 households," "model a 100bp rate cut."</p>
+            </div>
+            <div style="margin-top:12px;display:flex;flex-direction:column;gap:6px;">
+              <a class="btn-outline" style="text-align:left;justify-content:flex-start;font-weight:500;font-size:12px;">Show households where I haven't called in 90+ days</a>
+              <a class="btn-outline" style="text-align:left;justify-content:flex-start;font-weight:500;font-size:12px;">Surface tax-loss-harvest opportunities for Q2</a>
+              <a class="btn-outline" style="text-align:left;justify-content:flex-start;font-weight:500;font-size:12px;">Compare my book performance vs firm benchmark</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="editor.js"></script>
+</body>
+</html>

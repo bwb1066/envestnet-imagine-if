@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sage — Market event impact</title>
+  <link rel="icon" type="image/x-icon" href="https://www.envestnet.com/themes/custom/basic/favicon/favicon2025.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="mockup-stage">
+    <p class="mockup-caption"><strong>3A</strong> — Market event. The Fed cut by 25bps yesterday. Sage takes one signal and turns it into a ranked book-wide impact view — who's materially affected, by how much, and what to suggest. The advisor opens this 8am and knows their whole day.</p>
+    <div class="env-mock">
+      <div class="env-util">
+        <div class="left">
+          <span><strong>Henderson Wealth Advisors</strong></span>
+          <span>Sarah O'Brien · CFP, Partner</span>
+        </div>
+        <div class="right">
+          <span class="ai-pill">Sage AI · active</span>
+          <a>Help</a><a>Sign out</a>
+        </div>
+      </div>
+      <div class="env-header-bar">
+        <img src="https://www.envestnet.com/sites/default/files/envestnet_logo.584dcbdba8d4e3b81ca52c9cafe5f7d7.svg" alt="Envestnet" class="env-header-logo">
+      </div>
+      <div class="env-nav">
+        
+        <div class="env-nav-items">
+          <a class="active">Dashboard</a><a>Planning</a><a>Proposals</a><a>Trading</a><a>Reporting</a><a>Billing</a>
+        </div>
+        <div class="env-actions">
+          <input class="search" placeholder="Search…">
+        </div>
+      </div>
+
+      <div class="env-hero">
+        <span class="sage-pillar" style="background:rgba(0,169,224,0.2);color:var(--env-cyan);">PERSONALIZED ADVICE · BOOK-WIDE</span>
+        <span class="sage-tag on-dark">SAGE · MARKET EVENT · 8:14 AM</span>
+        <h1>Fed cuts 25bps — your book impact</h1>
+        <p class="sub">FOMC announced 25bp cut yesterday at 2pm ET. Sage scanned all 350 households for material impact across portfolio drift, fixed-income reinvestment risk, mortgage refinance opportunities, and planning-rate sensitivity. 47 households need attention. 12 are high leverage.</p>
+      </div>
+
+      <div class="stat-bar">
+        <div class="stat-tile"><div class="num">47</div><div class="label">Households affected</div></div>
+        <div class="stat-tile cyan"><div class="num">12</div><div class="label">High-leverage actions</div></div>
+        <div class="stat-tile"><div class="num">23</div><div class="label">Routine — auto-drafted</div></div>
+        <div class="stat-tile"><div class="num">~$2.1M</div><div class="label">Combined client value · est</div></div>
+      </div>
+
+      <div class="section-tight">
+        <h2>Action queue · ranked by leverage</h2>
+        <p class="lede" style="margin-bottom:8px;">Sage ranked by estimated client-impact dollars, weighted by Sarah's relationship strength and the time-sensitivity of the action. Top items first.</p>
+      </div>
+
+      <div class="alert-row flagged">
+        <div class="ico">$$</div>
+        <div class="body">
+          <div class="title">Walker household — mortgage refinance opportunity worth pursuing</div>
+          <div class="desc">Greg has a $1.2M mortgage at 7.1% (2023). New rate environment puts refi at ~6.0%. NPV savings $138K over remaining 22-yr term. Closing cost breakeven 14 months.</div>
+        </div>
+        <div class="affected">$138K<div class="sub">Estimated value</div></div>
+        <div><a class="btn-cyan btn">Draft email to Greg</a></div>
+      </div>
+
+      <div class="alert-row flagged">
+        <div class="ico">CD</div>
+        <div class="body">
+          <div class="title">Bell household — CD ladder needs reinvestment, rates dropping fast</div>
+          <div class="desc">Anthony &amp; Diane Bell have $840K in 6-month CDs maturing this week. Reinvesting at current rates locks in ~50bps less. Suggest extending duration on 60% of the position.</div>
+        </div>
+        <div class="affected">$94K<div class="sub">10-yr opportunity</div></div>
+        <div><a class="btn-cyan btn">Draft proposal</a></div>
+      </div>
+
+      <div class="alert-row flagged">
+        <div class="ico amber">RT</div>
+        <div class="body">
+          <div class="title">12 households — rebalance triggered by bond rally · review batch</div>
+          <div class="desc">Fixed-income sleeves now overweight after yesterday's rally. PMC model drift exceeded 3% threshold on 12 households. Sage auto-prepped rebalance trade tickets, awaiting Sarah's batch approval.</div>
+        </div>
+        <div class="affected">12 HHs<div class="sub">Batch action</div></div>
+        <div><a class="btn-cyan btn">Review trade tickets</a></div>
+      </div>
+
+      <div class="alert-row">
+        <div class="ico amber">RT</div>
+        <div class="body">
+          <div class="title">Tan household — planning-rate sensitivity high, plan probability dropped 2pts</div>
+          <div class="desc">Jenny &amp; David Tan are 4 years from retirement, plan was tight at 82% probability. Lower long-term yields reduce projected retirement income; MoneyGuide re-ran the plan at 80%. Suggest a 15-minute conversation.</div>
+        </div>
+        <div class="affected">−2 pts<div class="sub">Plan probability</div></div>
+        <div><a class="btn-outline">Schedule call</a></div>
+      </div>
+
+      <div class="alert-row">
+        <div class="ico amber">RT</div>
+        <div class="body">
+          <div class="title">Anderson household — concentrated bank-sector exposure now more attractive</div>
+          <div class="desc">Banking equities typically rally on cut cycles. Anderson has 18% concentration in regional bank holdings (legacy from inherited portfolio). Tax-loss optimization window opens this quarter.</div>
+        </div>
+        <div class="affected">$72K<div class="sub">Tax alpha</div></div>
+        <div><a class="btn-outline">Model exit</a></div>
+      </div>
+
+      <div class="alert-row">
+        <div class="ico">RT</div>
+        <div class="body">
+          <div class="title">Reyes household — annuity income strategy review</div>
+          <div class="desc">Maria Reyes (retired, 71) has $480K in deferred annuities. Lower rate environment changes optimal income-start timing by ~4 months. Sage modeled three scenarios.</div>
+        </div>
+        <div class="affected">~$11K/yr<div class="sub">Income optimization</div></div>
+        <div><a class="btn-outline">Review scenarios</a></div>
+      </div>
+
+      <div class="alert-row">
+        <div class="ico green">✓</div>
+        <div class="body">
+          <div class="title">23 households · routine fixed-income rebalance — auto-drafted, no client-visible change</div>
+          <div class="desc">Standard drift correction across smaller PMC moderate-conservative households. Each below the 1% threshold that requires client confirmation. Sage queued trades, will execute at 3pm if Sarah doesn't intervene.</div>
+        </div>
+        <div class="affected">Routine<div class="sub">Auto-execute 3pm</div></div>
+        <div><a class="btn-ghost">Review batch</a></div>
+      </div>
+
+      <div class="section-tight" style="padding-top:32px;">
+        <div class="sage-card">
+          <div class="sage-tag">SAGE — calibration note</div>
+          <p style="margin-bottom:8px;"><strong>What I scanned:</strong> all 350 households' portfolios, plans, mortgages, deposits, annuities, and concentrated positions. ~840 data points checked against the rate-change scenario in 14 seconds.</p>
+          <p style="margin-bottom:8px;"><strong>What I held back:</strong> 28 additional households had minor impact (under $5K projected value, under 1pt plan-probability shift). Surfacing those would add noise without adding value. They're tracked but not action-queued.</p>
+          <p style="margin-bottom:0;"><strong>What I want Sarah to verify:</strong> the Walker mortgage refi calc assumes a 60-day close, 1.2% closing costs, no break fee on the current loan. Greg's PE deal may have a covenant restricting cash-out — worth one phone call to confirm before sending the proposal. Flagged in the Walker action ticket.</p>
+        </div>
+
+        <div style="display:flex;gap:12px;margin-top:24px;">
+          <a class="btn">Approve all auto-drafted actions (35 items)</a>
+          <a class="btn-outline">Review high-leverage queue first</a>
+          <a class="btn-ghost">Export event report for compliance</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="editor.js"></script>
+</body>
+</html>
