@@ -41,6 +41,7 @@ body {
   font-family: var(--font-body);
   font-size: 14px;
   line-height: 1.5;
+  zoom: 1.25;
   color: var(--text);
   background: var(--bg-alt);
   -webkit-font-smoothing: antialiased;
